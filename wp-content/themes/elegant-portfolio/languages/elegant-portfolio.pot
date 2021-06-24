@@ -1,0 +1,140 @@
+# <!=Copyright (C) 2021 Rara Theme
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Portfolio 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/elegant-portfolio\n"
+"POT-Creation-Date: 2021-01-22 10:17:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:39
+msgid "Appearance Settings"
+msgstr ""
+
+#: functions.php:40
+msgid "Customize Typography, Header Image & Background Image"
+msgstr ""
+
+#: functions.php:48
+msgid "Typography"
+msgstr ""
+
+#: functions.php:68
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:69
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:90
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:91
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:108
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:121
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:123
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:144
+msgid "Elegant Portfolio | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr ""
+
+#: functions.php:147
+msgid " Powered by %s"
+msgstr ""
+
+#: functions.php:147
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:183
+msgid "Contact Section"
+msgstr ""
+
+#: functions.php:185
+msgid ""
+"Add Text Widget for contact form and \"Rara:Contact Widget\" for contact "
+"details."
+msgstr ""
+
+#: functions.php:272
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Elegant Portfolio"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rarathemes.com/wordpress-themes/elegant-portfolio/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Elegant Portfolio is a child theme of Perfect Portfolio Free WordPress "
+"theme. You can use this theme to create a clean, elegant, and "
+"fully-responsive portfolio or blog using this theme. This theme can be an "
+"ideal choice to create portfolio sites for photographers, digital agencies, "
+"artists, graphic designers, painters, and other freelance artistic or "
+"creative works. You can create a attractive portfolio website with this "
+"theme and impress your visitors. It is a cross-browser compatible and "
+"highly customizable theme which comes with multiple customization option to "
+"allow you design your website as per your desire. You can use this theme "
+"for free for life time for both personal and commercial purpose. "
+"Furthermore, it is a speed optimized theme which gives your visitors a "
+"great user experience and increase user-engagement on your website. It is "
+"ultra-SEO optimized with Schema.org markup ready which boosts the search "
+"engine ranking of your website. Various other amazing features of this "
+"theme include translation ready, colors options, social media integration, "
+"copyright text and much more. You can also enjoy regular updates for free. "
+"Elegant Portfolio is also backed with the super-friendly support team to "
+"help you when you need assistance. Check the demo at "
+"https://rarathemes.com/previews/?theme=elegant-portfolio/, documentation at "
+"https://docs.rarathemes.com/docs/elegant-portfolio/ and get support at "
+"https://rarathemes.com/support-forum/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rarathemes.com/"
+msgstr ""
+
+#: functions.php:306
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:307
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:308
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

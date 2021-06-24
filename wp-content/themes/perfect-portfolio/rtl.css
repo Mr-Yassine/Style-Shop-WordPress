@@ -1,0 +1,431 @@
+/*
+Theme Name: Perfect Portfolio
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.site-header .site-branding {
+    text-align: right;
+}
+
+.site-branding .site-logo + .site-title-wrap {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.site-header .header-r {
+    text-align: left;
+}
+
+.header-r .header-search, 
+.header-r span.fa.fa-bars {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.site-header .menu-wrap {
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.mCSB_container {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.mCSB_scrollTools {
+    left: 0;
+    right: auto;
+}
+
+.site-header .menu-wrap {
+    right: auto;
+    left: 0;
+    text-align: right;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.main-navigation button.toggle-button {
+    float: left;
+}
+
+.main-navigation ul li span.fa {
+    right: auto;
+    left: 0;
+}
+
+.header-r .head-search-form {
+    right: auto;
+    left: -20px;
+}
+
+.header-r .head-search-form:before, 
+.header-r .head-search-form:after {
+    right: auto;
+    left: 35px;
+}
+
+.search-form input.search-field {
+    float: right;
+}
+
+.cta-section .button-wrap .btn-cta + .btn-cta {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.article-block header.entry-header, 
+.top-footer > .tc-wrapper, 
+.widget_raratheme_companion_faqs_widget .accordion li, 
+.bottom-footer, .article-wrap, .related .related-post-title, .additional-posts .block .block-title, 
+.single .page-header, .additional-posts.portfolio-related .block .entry-meta, 
+.gallery-section.style2 .text-holder, .grid-view .gallery-wrap .text-holder, 
+.gallery-section.style3 .text-holder, .gal-carousel .gallery-img .text-holder, 
+.gallery-section.style4 .gallery-wrap .gallery-img .text-holder, .list-view .gallery-wrap .gallery-img .text-holder, 
+.widget_raratheme_featured_page_widget .widget-featured-holder, .block-wrap, 
+.full-width.single-post .additional-posts .entry-meta {
+    text-align: right;
+}
+
+.widget_raratheme_companion_cta_widget .right .raratheme-cta-container {
+    padding-right: 0;
+    padding-left: 25%;
+    text-align: right;
+}
+
+.widget_raratheme_companion_cta_widget .right .button-wrap {
+    text-align: left;
+    right: auto;
+    left: 0;
+}
+
+.single-post .about-author .author-img {
+    float: right;
+}
+
+.single-post .about-author .author-info-wrap {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.widget_tag_cloud .tagcloud a {
+    direction: ltr;
+}
+
+.widget_raratheme_popular_post ul li .post-thumbnail, 
+.widget_raratheme_recent_post ul li .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.button-wrap .btn-cta + .btn-cta {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.widget_raratheme_companion_faqs_widget .accordion li a::after {
+    right: auto;
+    left: 0;
+}
+
+.widget_raratheme_companion_stat_counter_widget .raratheme-sc-holder {
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.widget_raratheme_companion_stat_counter_widget .image-holder, 
+.widget_raratheme_companion_stat_counter_widget .icon-holder {
+    left: auto;
+    right: 0;
+}
+
+.bottom-footer .foot-social {
+    text-align: left;
+}
+
+.back-to-top {
+    right: auto;
+    left: 20px;
+}
+
+.widget_rrtc_testimonial_widget .testimonial-content::before, 
+.widget_rrtc_testimonial_widget .testimonial-content::after {
+    left: auto;
+    right: 50px;
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    transform: skew(-45deg);
+}
+
+.widget_rrtc_testimonial_widget .testimonial-content::after {
+    left: auto;
+    right: 54px;
+}
+
+.widget_rrtc_testimonial_widget .img-holder {
+    float: right;
+    margin-right: 0;
+    margin-left: 19px;
+}
+
+.comment-navigation .nav-previous, 
+.posts-navigation .nav-previous, 
+.post-navigation .nav-previous {
+    float: right;
+    text-align: right;
+}
+
+.comment-navigation .nav-next, 
+.posts-navigation .nav-next, 
+.post-navigation .nav-next {
+    text-align: left;
+}
+
+.nav-links div[class*="nav-"] a {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.nav-links div.nav-next a {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.nav-links div[class*="nav-"] a::before {
+    left: auto;
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.nav-links div.nav-next a::before {
+    left: 0;
+    right: auto;
+}
+
+.rightsidebar .additional-posts, 
+.leftsidebar .additional-posts {
+    text-align: right;
+}
+
+.comments-area .comments-title, 
+.comment-respond .comment-reply-title {
+    text-align: right;
+}
+
+.comments-area .comment-body {
+    padding-left: 0;
+    padding-right: 90px;
+    text-align: right;
+}
+
+.comment-body img.avatar {
+    left: auto;
+    right: 0;
+}
+
+.left, .left-content {
+    text-align: right;
+}
+
+.comment-body .reply {
+    right: auto;
+    left: 0;
+}
+
+.rightsidebar .comment-respond {
+    text-align: right;
+}
+
+.comment-respond p.comment-form-author {
+    margin-right: 0;
+    margin-left: 3%;
+}
+
+.comment-respond .comment-form label[for="wp-comment-cookies-consent"] {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.cat-item a {
+    direction: ltr;
+    display: inline-block;
+}
+
+.single-post .entry-meta > span {
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+.single-post .entry-meta > span:last-child {
+    padding-left: 0;
+}
+
+.author .page-header .author-info-wrap {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.post-count {
+    direction: ltr;
+}
+
+blockquote {
+    text-align: right;
+    border-left: none;
+    border-right: 3px solid #f0f0f0;
+}
+
+.single span.sub-title span {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.single span.sub-title span:last-child {
+    margin-left: 0;
+}
+
+.single-centered .additional-posts .block {
+    text-align: right;
+}
+
+.about-content-wrap .widget_raratheme_featured_page_widget .featured_page_content {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.resume-wrap .widget_text:not(:first-child) .textwidget {
+    float: left;
+}
+
+.resume-wrap .widget_text:not(:first-child) .textwidget ul li:before {
+    right: 0;
+    left: auto;
+}
+
+.resume-wrap .widget_text:not(:first-child) .textwidget ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.text-holder span.sub-title span, 
+.filter-button-group button {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.text-holder span.sub-title span:last-child, 
+.filter-button-group button:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.widget_rrtc_description_widget .rtc-team-holder-modal .rtc-team-inner-holder-modal {
+    padding-left: 0;
+    padding-right: 480px;
+}
+
+.widget_rrtc_description_widget .rtc-team-holder-modal .image-holder {
+    left: auto;
+    right: 0;
+}
+
+.article-holder .article-block {
+    float: right;
+    margin-right: 0;
+    margin-left: 3%;
+}
+.article-holder .article-block:last-child {
+    margin-left: 0;
+}
+
+.related .related-block, .additional-posts .block, 
+.single-centered .additional-posts .block:nth-child(3n), 
+.single-post.rightsidebar .additional-posts .block:nth-child(3n), 
+.single-post.leftsidebar .additional-posts .block:nth-child(3n) {
+    margin-right: 0;
+    margin-left: 2.5%;
+}
+
+.single-centered .additional-posts .block:nth-child(2n), 
+.single-post.rightsidebar .additional-posts .block:nth-child(2n), 
+.single-post.leftsidebar .additional-posts .block:nth-child(2n) {
+    margin-left: 0;
+}
+.related .related-block:last-child, .additional-posts .block:nth-child(3n) {
+    margin-left: 0;
+}
+
+
+/*responsive css*/
+@media screen and (max-width: 1415px){
+    .widget_raratheme_companion_cta_widget .right .raratheme-cta-container {
+        padding-left: 40%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .widget_rrtc_description_widget .rtc-team-holder-modal .rtc-team-inner-holder-modal {
+        padding-left: 3%;
+        padding-right: calc(40% + 20px);
+    }
+
+    .widget_rrtc_description_widget .rtc-team-holder-modal .image-holder {
+        left: auto;
+        right: 3%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .related .related-block:nth-child(2n), .additional-posts .block:nth-child(2n) {
+        margin-left: 0;
+    }
+    .additional-posts .block:nth-child(3n) {
+        margin-right: 0;
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .widget_rrtc_description_widget .rtc-team-holder-modal .rtc-team-inner-holder-modal {
+        padding-right: 3%;
+    }
+    .widget_rrtc_description_widget .rtc-team-holder-modal .image-holder {
+        float: right;
+    }
+    .widget_rrtc_description_widget .rtc-team-holder-modal .social-profile {
+        float: left;
+    }
+    .widget_raratheme_companion_cta_widget .right .raratheme-cta-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .cta-section .button-wrap .btn-cta + .btn-cta {
+        margin-right: 0;
+    }
+    .article-holder .article-block {
+        float: none;
+        margin-left: 0;
+    }
+    .single-post .about-author .author-info-wrap {
+        padding-right: 0;
+    }
+}
