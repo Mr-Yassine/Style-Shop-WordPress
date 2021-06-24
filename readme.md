@@ -1,5 +1,5 @@
 # School-Management-System
-La créatione d'un site en utilisant des plugins de création de contenu.
+La créatione d'un site WordPress en utilisant des plugins de création de contenu.
 
 ### Les étapes :
 
@@ -20,7 +20,7 @@ La créatione d'un site en utilisant des plugins de création de contenu.
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>WordPress &#8250; ReadMe</title>
+	<title>WordPress &#8250;</title>
 	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
