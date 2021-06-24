@@ -1,4 +1,4 @@
-# School-Management-System
+# Style-Shop-WordPress
 La créatione d'un site WordPress en utilisant des plugins de création de contenu.
 
 ### Les étapes :
