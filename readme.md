@@ -1,10 +1,18 @@
 # School-Management-System
-Application web de gestion des emplois du temps qui permet de réserver une salle pour un cours, ce dernier va être assuré par un enseignant à un tel groupe dans un créneau horaire (séance)
-bien défini.
+La créatione d'un site en utilisant des plugins de création de contenu.
+
+### Les étapes :
+
+  - Téléchargement de WordPress
+  - Installation 
+  - Création d'une base de donées qui sera utilisé par wordpress pour la création de ses tables.
+  - L'authentification à WordPress avec les informations de connexion (Base de données)
+  - Choix du thème
+  - Installation des plugins nécessaires
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-<img src="presentation.jpg" alt="mockup"/>
+<img src="Mockup.jpg" alt="mockup"/>
 
 
 <!DOCTYPE html>
